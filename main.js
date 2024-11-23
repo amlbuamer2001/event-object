@@ -27,3 +27,9 @@ inputField.addEventListener('keydown', (event) => {
 
     outputDiv.innerText = statusMessage;
 });
+
+
+document.addEventListener('contextmenu', (event) => {
+    event.preventDefault();
+    alert("Right-click is disabled on this page!");
+});
